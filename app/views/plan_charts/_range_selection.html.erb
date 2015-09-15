@@ -4,7 +4,7 @@
       <label for="week_start_date" class="bold">
         <%= l(:field_planner_plan_week_date) %>
       </label>
-      <%= text_field_tag :start, @chart.start_date, :size => 10 %><%= calendar_for('start') %>
+      <%= date_field_tag :start, @chart.start_date, :size => 10 %><%= calendar_for('start') %>
     </span>
 
     <span>
