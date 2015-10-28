@@ -46,6 +46,7 @@ class PlanRequest < ActiveRecord::Base
 
   validates_inclusion_of :status, :in => [STATUS_NEW, STATUS_READY, STATUS_APPROVED, STATUS_DENIED]
   validates_inclusion_of :priority, :in => [PRIO_LOWEST, PRIO_LOW, PRIO_NORMAL, PRIO_HIGH, PRIO_HIGHEST]
+  validates_presence_of :task
 
   # Returns the status as i18n string
   def status_string
