@@ -1,0 +1,93 @@
+# Simplified Chinese strings go here for Rails i18n
+zh:
+  permission_planner_view: 查看资源计划
+  permission_planner_edit: 编辑资源计划
+  permission_planner_admin: 管理资源计划
+  permission_planner_task_create: 创建任务
+  permission_planner_requests: 创建资源请求
+
+  label_planner_menu_main: 资源规划
+  label_planner_planning: 规划
+  label_planner_manage: 管理
+  label_planner_overview: 概览
+  label_planner_own_plan: 我的资源计划
+
+  label_planner_group: 团队/小组
+  label_planner_groups: 团队及小组
+  label_planner_group_edit: 编辑团队/小组
+  label_planner_group_new: 创建团队/小组
+  label_planner_group_team: 团队
+  label_planner_group_teams: 团队
+  label_planner_group_group: 小组
+  label_planner_group_groups: 小组
+
+  label_planner_task: 任务
+  label_planner_tasks: 任务
+  label_planner_task_edit: 编辑任务
+  label_planner_task_new: 添加任务
+
+  label_planner_requests: 资源申请
+  label_planner_request: 资源申请
+  label_planner_request_short: Req.
+  label_planner_req_new: 添加资源申请
+  label_planner_req_edit: 编辑资源申请
+  label_planner_req_status_new: 新建
+  label_planner_req_status_ready: 就绪
+  label_planner_req_status_approved: 已批准
+  label_planner_req_status_denied: 已否决
+  label_planner_req_my: 我的计划中资源申请
+  label_planner_req_approvals: 待我进行审批的资源申请
+  label_planner_req_requestee: 我已参与的资源申请
+  label_planner_req_send: 提交资源申请
+  label_planner_req_send_help: 资源申请已准备就绪，请点击保存提交审批。
+  label_planner_req_approve_deny: 审批处理
+  label_planner_req_approve: 批准
+  label_planner_req_deny: 否决
+  label_planner_req_view: 查看
+  label_planner_req_review: 审批
+
+  label_planner_req_prio_lowest: 极低
+  label_planner_req_prio_low: 低
+  label_planner_req_prio_normal: 常规
+  label_planner_req_prio_high: 高
+  label_planner_req_prio_highest: 最高
+  label_planner_req_assoc_plan: 关联的计划
+  label_planner_req_add_plan: 更新关联的计划
+
+  field_planner_group_type: 组类型
+  field_planner_leader: 负责人
+  field_planner_owner: 所有者
+  field_planner_is_open: 启用？
+  field_planner_wbs: WBS №
+  field_planner_task: 任务
+
+  field_planner_req_prio: 优先级
+  field_planner_req_id: 资源申请 ID
+  field_planner_req_resource: 资源
+  field_planner_req_requester: 申请人
+  field_planner_req_approver: 审批人
+  field_planner_req_status: 状态
+  field_planner_req_date: 日期
+  field_planner_req_approval_date: 审批日期
+  field_planner_req_note: 批注
+
+  field_planner_plan_year: 年度
+  field_planner_plan_week: 周
+  field_planner_plan_weekdays: Weekdays
+  field_planner_plan_week_date: 起始于
+  field_planner_plan_week_repeat: Weeks to repeat
+  field_planner_plan_weeks_past: Past weeks to show
+  field_planner_plan_weeks_show: 显示多少周
+  field_planner_plan_percent: 工作量
+  field_planner_plan_percent_total: 总计
+  field_planner_plan_percent_total_descr: 总计列显示包含特定状态的资源申请
+  field_planner_workload_target: 目标工作负荷
+  field_planner_workload_ths_ok: 工作负荷正常
+  field_planner_workload_ths_overload: 工作超负荷
+
+  error_teamleader_not_found: 找不到团队负责人，请在【团队/小组】模块中配置团队负责人，并将负责人加入到团队成员列表中去。
+
+  mail_subject_planner_ready: "资源申请 #%{id} 待审批"
+  mail_subject_planner_approved: "资源申请 #%{id} 已批准"
+  mail_subject_planner_denied: "资源申请 #%{id} 已否决"
+  mail_subject_planner_deleted: "资源申请 #%{id} 已删除"
